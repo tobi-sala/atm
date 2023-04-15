@@ -1,6 +1,6 @@
 import string, random, time
 #making account balance be any number at random
-bal = float(random.randint(1,1000000))
+bal = float(random.randint(1,10000000))
 
 #selecting language and entering pin
 lang = int(input("Select Language: \n1. French\t\t\t\t4. Igbo\n2. Spanish\t\t\t\t5. Hausa\n3. English\t\t\t\t6. Yoruba\n: "))
@@ -66,22 +66,22 @@ if trans == 1:
     wthdl = int(input(": "))
     time.sleep(1)
     if wthdl == 1:
-        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
         quit()
     elif wthdl == 2:
-        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
         quit()
     elif wthdl == 3:
-        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
         quit()
     elif wthdl == 4:
-        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
         quit()
