@@ -69,25 +69,35 @@ if trans == 1:
         acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
         quit()
     elif wthdl == 2:
         acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
         time.sleep(1)
         quit()
     elif wthdl == 3:
         acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
         quit()
     elif wthdl == 4:
         acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
         print("loading...")
         time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
         quit()
     elif wthdl == 5:
         acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
         print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
         time.sleep(1)
         quit()
     elif wthdl == 6:
@@ -95,6 +105,8 @@ if trans == 1:
         print("Enter how much you want in denominations of $500")
         wthdl = int(input(": "))
         print("Loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
         time.sleep(1)
     else:
         print("Invalid Selection")
@@ -105,28 +117,40 @@ elif trans == 2:
     if dpst == 1:
         print("loading...")
         time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
         quit()
     elif dpst == 2:
         print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
         time.sleep(1)
         quit()
     elif dpst == 3:
         print("loading...")
         time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
         quit()
     elif dpst == 4:
         print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
         time.sleep(1)
         quit()
     elif dpst == 5:
         print("loading...")
         time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
         quit()
     elif dpst == 6:
         print("Enter how much you want in denominations of $500")
         dpst = int(input(": "))
-        time.sleep(1)
         print("Loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
     else:
         print("Invalid Selection")
 elif trans == 3:
@@ -134,19 +158,274 @@ elif trans == 3:
 else:
     print("Invalid Selection")
 while trans != 1 or 2 or 3:
+    #selecting transaction
     trans = int(input("Select Transaction: \n\t\t\t\t1. Withdrawal\n\t\t\t\t2. Deposit\n\t\t\t\t3. Check Account Balance\n: "))
     if trans == 1:
+        print("How much would you like to withdraw? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. Others")
+        wthdl = int(input(": "))
         time.sleep(1)
-        print("How much would you like to withdraw? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. $20000")
-    elif trans == 1:
-        time.sleep(1)
+        if wthdl == 1:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 2:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 3:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 4:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 5:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 6:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("Enter how much you want in denominations of $500")
+            wthdl = int(input(": "))
+            print("Loading...")
+            time.sleep(1)
+        else:
+            print("Invalid Selection")
+    elif trans == 2:
         print("How much would you like to Deposit? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. $20000")
-    elif trans == 3:
         time.sleep(1)
+        dpst = int(input(": "))
+        if dpst == 1:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 2:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 3:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 4:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 5:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 6:
+            print("Enter how much you want in denominations of $500")
+            dpst = int(input(": "))
+            time.sleep(1)
+            print("Loading...")
+        else:
+            print("Invalid Selection")
+    elif trans == 3:
         print("Your Account Balance is $ {}".format(bal))
-    
+    else:
+        print("Invalid Selection")
+        
 
 
 ano_trans = input("Would you like to perform another transaction?\n type Y for yes and N for no")
 if ano_trans == "Y" or "y":
     trans = int(input("Select Transaction: \n\t\t\t\t1. Withdrawal\n\t\t\t\t2. Deposit\n\t\t\t\t3. Check Account Balance\n: "))
+if trans == 1:
+    print("How much would you like to withdraw? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. Others")
+    wthdl = int(input(": "))
+    time.sleep(1)
+    if wthdl == 1:
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif wthdl == 2:
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif wthdl == 3:
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif wthdl == 4:
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif wthdl == 5:
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif wthdl == 6:
+        acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+        print("Enter how much you want in denominations of $500")
+        wthdl = int(input(": "))
+        print("Loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+    else:
+        print("Invalid Selection")
+elif trans == 2:
+    print("How much would you like to Deposit? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. $20000")
+    time.sleep(1)
+    dpst = int(input(": "))
+    if dpst == 1:
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif dpst == 2:
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif dpst == 3:
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif dpst == 4:
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif dpst == 5:
+        print("loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+        quit()
+    elif dpst == 6:
+        print("Enter how much you want in denominations of $500")
+        dpst = int(input(": "))
+        print("Loading...")
+        time.sleep(1)
+        print("Thank you for banking with us")
+        time.sleep(1)
+    else:
+        print("Invalid Selection")
+elif trans == 3:
+    print("Your Account Balance is $ {}".format(bal))
+else:
+    print("Invalid Selection")
+while trans != 1 or 2 or 3:
+    #selecting transaction
+    trans = int(input("Select Transaction: \n\t\t\t\t1. Withdrawal\n\t\t\t\t2. Deposit\n\t\t\t\t3. Check Account Balance\n: "))
+    if trans == 1:
+        print("How much would you like to withdraw? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. Others")
+        wthdl = int(input(": "))
+        time.sleep(1)
+        if wthdl == 1:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 2:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 3:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 4:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savings\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 5:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("loading...")
+            time.sleep(1)
+            print("Thank you for banking with us")
+            time.sleep(1)
+            quit()
+        elif wthdl == 6:
+            acct = int(input("Enter you Account Type\n\t\t\t\t1. Savigs\n\t\t\t\t2. Current\n\t\t\t\t3. Fixed\n:"))
+            print("Enter how much you want in denominations of $500")
+            wthdl = int(input(": "))
+            print("Loading...")
+            time.sleep(1)
+        else:
+            print("Invalid Selection")
+    elif trans == 2:
+        print("How much would you like to Deposit? \n1. $1000\t\t\t\t4. $5000\n2. #2000\t\t\t\t5. $10000\n3. #3000\t\t\t\t6. $20000")
+        time.sleep(1)
+        dpst = int(input(": "))
+        if dpst == 1:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 2:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 3:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 4:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 5:
+            print("loading...")
+            time.sleep(1)
+            quit()
+        elif dpst == 6:
+            print("Enter how much you want in denominations of $500")
+            dpst = int(input(": "))
+            time.sleep(1)
+            print("Loading...")
+        else:
+            print("Invalid Selection")
+    elif trans == 3:
+        print("Your Account Balance is $ {}".format(bal))
+    else:
+        print("Invalid Selection")
